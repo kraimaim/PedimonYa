@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@500&display=swap');
+
+
+@media (min-width: 577px){
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px 0px 0px 0px;
+    font-size: 27px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.margin {
+    margin: 0px 11.25rem 0px 11.25rem;
+
+}
+
+#intro{
+    background-color: #F7DE82;
+}
+.intro_capsule {
+    text-align: left;
+    padding: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    grid-template-areas: 
+    'titulo imagen' 
+    'texto imagen' 
+    'boton imagen'
+    ;
+}
+#nav_style {
+    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 0px 0px 0px 30px;
+    padding-left: 110px;
+
+}
+#nav_ul {
+    padding-top: 30px;
+    padding-left: 40px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    margin: 0.5em 0em 0em 12.5em;
+}
+
+.nav_item:hover {
+    background-color: #0C4DA2;
+    color: #e7e7e7;
+}
+.nav_item {
+    margin-right: 4.0625rem;
+    color: #0C4DA2;
+}
+
+#intro nav img {
+    padding-top: 40px;
+    margin: 0.5em 0em 0em 0em;
+    
+    height: 4.375rem;
+}
+ #intro .nav_item img {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 1.25rem;
+    padding-top: 0px;
+
+}
+
+#intro_text_titulo {
+    grid-area: titulo;
+    padding-right: 60px;
+}
+#intro_text_titulo img{
+    height: 3em;
+}
+#intro_text_texto {
+    grid-area: texto;
+    padding-right: 130px;
+}
+#intro_boton {
+    padding: 1.25rem 0px 1.25rem 0px;
+    grid-area: boton;
+}
+
+#boton_azul {
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+    color: white;
+    background-color: #0C4DA2;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 23px;
+}
+
+
+#intro_image {
+    grid-area: imagen;
+}
+#intro_image img {
+    height: 13em;
+    
+
+}
+
+#type{
+    background-color: #0C4DA2;
+    color: white;
+    padding-bottom: 2.5rem;
+    
+}
+.type_capsule{
+    padding-bottom: 10.625rem;
+    display: grid;
+    grid-template-areas: 
+    'titulob titulob titulob'
+    'agua electrico fuego'
+    ;
+}
+
+#type
+.type_pokemon img{
+    height: 6em;
+}
+.type_pokemon p{
+    margin: 1px 4.375rem 1px 4.375rem;
+}
+
+#type_text_title{
+    grid-area: titulob;
+}
+#type_type_water{
+    grid-area: agua;
+}
+#type_type_electric{
+    grid-area: electrico;
+}
+#type_type_fire{
+    grid-area: fuego;
+}
+.title{
+    font-size: 3.75rem;
+    margin: 0px 0px 0px 0px;
+    padding-top: 5.9375rem;
+    background-color: #0C4DA2;
+    font-family: 'Roboto', sans-serif;
+    color: #F7DE82;
+    letter-spacing: 0.25rem;
+}
+#type_p{
+    margin-top: 0.625rem;
+    margin-bottom: 9.375rem;
+}
+#card{
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#card_title{
+    color: #0C4DA2;
+    font-size: 35px;
+}
+.card{
+    margin: 0.9375rem 1.25rem 1.5625rem 1.25rem;
+    padding: 0.9375rem 0px 0.9375rem 0px;
+    border: 2px solid #e7e7e7;
+    height: 15em;
+    border-radius: 8px;
+    color: #0C4DA2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0625rem;
+    box-shadow: 8px 8px 15px 2px rgba(0,0,0,0.45);
+}
+.card button{
+    font-family: 'Roboto', sans-serif;
+    background-color:#F7DE82 ;
+    border-radius: 6px;
+    border-width: 0px;
+    padding: 0.1875rem 1.0625rem 0.1875rem 1.0625rem;
+}
+#card_title{
+    grid-area: tituloc ;
+}
+#card_flareon{
+    grid-area: flareon ;
+}
+#card_vaporeon{
+    grid-area: vaporeon ;
+}
+#card_moltres{
+    grid-area: moltres ;
+}
+#card_zapdos{
+    grid-area: zapdos ;
+}
+#card_articuno{
+    grid-area: articuno ;
+}
+#card_eve{
+    grid-area: eve ;
+}
+
+.card_capsule{
+    display: grid;
+    grid-template-areas: 
+    'tituloc tituloc tituloc'
+    'eve flareon vaporeon'
+    'moltres zapdos articuno'
+    ;
+}
+
+.card img{ 
+    width: 7em;
+}
+#kart{
+    background-color: #F3F3F3;
+    color: #0C4DA2;
+}
+#kart_text_titulo {
+    font-size: 40px;
+}
+#kart_art1_foto img{
+    grid-area: zapdos;
+}
+#kart_art2_foto img{
+    grid-area: moltres;
+}
+#kart_art3_foto img{
+    grid-area: articuno;
+}
+
+.kart_art1 {
+    grid-area: zapdosb;
+}
+.kart_art2 {
+    grid-area: moltresb;
+}
+.kart_art3 {
+    grid-area: articunob;
+}
+#id {
+    grid-area: total;
+}
+.mini img{
+    height: 3em;
+}
+#total {
+    grid-area: total;
+    padding-right: 40px;
+}
+.carrito{
+    display: grid;
+    grid-template-areas: 'zapdos  zapdosb zapdosb'
+                         'moltres moltresb moltresb'
+                         'articuno articunob articunob'
+                         '- total finalizar';
+    margin: 0.9375rem 0px 1.5625rem 0px;
+    padding: 0.9375rem 0.4375rem 0.9375rem 0.4375rem;
+    border: 2px solid #e7e7e7;
+    height: 15em;
+    border-radius: 10px;
+    color: #0C4DA2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background-color: white;
+    text-align: right;
+    line-height: 40px;
+    word-spacing: 4px;
+}
+
+#finalizar {
+    grid-area: finalizar;
+    background-color: #F7DE82;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px 5px 10px;
+    border-width: 0px;
+    border-radius: 16px;
+}
+#pie {
+    background-color: #0C4DA2;
+    margin: 20px 0px 0px 0px;
+    padding: 40px 10px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #F3F3F3;
+    text-align: left;
+}
+#pie img {
+    height: 3em;
+}
+
+#contacto {
+    grid-area: 'contacto';
+}
+#legales{
+    grid-area: 'legales';
+}
+#numero{
+    grid-area: 'numero';
+}
+#direccion{
+    grid-area: 'direccion';
+}
+#comentarios{
+    grid-area: 'comentarios';
+}
+#datos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+}
+
+@media (max-width: 576px){
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.margin {
+    margin: 0px 1.875rem 0px 1.875rem;
+
+}
+
+#intro{
+    background-color: #F7DE82;
+}
+.intro_capsule {
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows:repeat(4, auto) ;
+    grid-template-areas: 
+    'titulo'
+    'texto'
+    'imagen'
+    'boton';
+}
+#nav_style {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 0em 0em 0em 0em;
+}
+
+.nav_item:hover {
+    background-color: #0C4DA2;
+    color: #e7e7e7;
+}
+
+#nav_ul {
+    padding-left: 0px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    margin: 0.5em 0em 0em 1.35em;
+}
+
+.nav_item {
+    padding-right: 0.3125rem;
+    color: #0C4DA2;
+}
+
+#intro nav img {
+    margin: 0.5em 0em 0em 2.25em;
+    
+    height: 1.875rem;
+}
+ #intro .nav_item img {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 0.625rem;
+
+}
+#intro_text_titulo {
+    grid-area: titulo;
+}
+#intro_text_titulo img{
+    height: 3em;
+}
+#intro_text_texto {
+    grid-area: texto;
+}
+#intro_boton {
+    padding: 1.25rem 0px 1.25rem 0px;
+    grid-area: boton;
+}
+
+#boton_azul {
+    padding: 0.125rem 0.625rem 0.125rem 0.625rem;
+    color: white;
+    background-color: #0C4DA2;
+    border-radius: 6px;
+    border-width: 0px;
+}
+#intro_image img {
+    height: 13em;
+    grid-area: imagen;
+
+}
+
+#type{
+    background-color: #0C4DA2;
+    color: white;
+    padding-bottom: 2.5rem;
+}
+
+.type_pokemon img{
+    height: 6em;
+}
+.type_pokemon p{
+    margin: 1px 4.375rem 1px 4.375rem;
+}
+
+#type_text_title{
+    grid-area: titulob;
+}
+#type_type_water{
+    grid-area: agua;
+}
+#type_type_electric{
+    grid-area: electrico;
+}
+#type_type_fire{
+    grid-area: fuego;
+}
+.title{
+    font-size: 1.25rem;
+    margin: 0px 0px 0px 0px;
+    padding-top: 1.5625rem;
+    background-color: #0C4DA2;
+    font-family: 'Roboto', sans-serif;
+    color: #F7DE82;
+}
+#type_p{
+    margin-top: 2px;
+}
+#card{
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#card_title{
+    color: #0C4DA2;
+    font-size: 15px;
+}
+.card{
+    margin: 0.9375rem 0px 1.5625rem 0px;
+    padding: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
+    border: 2px solid #e7e7e7;
+    height: 15em;
+    border-radius: 8px;
+    color: #0C4DA2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0625rem;
+    box-shadow: 8px 8px 15px 2px rgba(0,0,0,0.45);
+}
+.card button{
+    font-family: 'Roboto', sans-serif;
+    background-color:#F7DE82 ;
+    border-radius: 6px;
+    border-width: 0px;
+    padding: 0.1875rem 1.0625rem 0.1875rem 1.0625rem;
+}
+
+.card img{ 
+    width: 8em;
+}
+#kart{
+    background-color: #F3F3F3;
+    color: #0C4DA2;
+}
+#kart_text_titulo {
+    font-size: 1.1875rem;
+}
+#kart_art1_foto img{
+    grid-area: zapdos;
+}
+#kart_art2_foto img{
+    grid-area: moltres;
+}
+#kart_art3_foto img{
+    grid-area: articuno;
+}
+
+.kart_art1 {
+    grid-area: zapdosb;
+}
+.kart_art2 {
+    grid-area: moltresb;
+}
+.kart_art3 {
+    grid-area: articunob;
+}
+#id {
+    grid-area: total;
+}
+.mini img{
+    height: 2em;
+}
+#total {
+    grid-area: total;
+    padding-right: 40px;
+}
+.carrito{
+    display: grid;
+    grid-template-areas: 'zapdos  zapdosb zapdosb'
+                         'moltres moltresb moltresb'
+                         'articuno articunob articunob'
+                         ' . finalizar total';
+    margin: 0.9375rem 0px 1.5625rem 0px;
+    padding: 0.9375rem 0.4375rem 0.9375rem 0.4375rem;
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+    color: #0C4DA2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    word-spacing: 4px;
+}
+
+#finalizar {
+    background-color: #F7DE82;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px 5px 3px 5px;
+    border-width: 0px;
+    border-radius: 16px;
+}
+#pie {
+    background-color: #0C4DA2;
+    margin: 20px 0px 0px 0px;
+    padding: 40px 10px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #F3F3F3;
+    text-align: left;
+}
+#pie img {
+    height: 3em;
+}
+
+#contacto {
+    grid-area: 'contacto';
+}
+#legales{
+    grid-area: 'legales';
+}
+#numero{
+    grid-area: 'numero';
+}
+#direccion{
+    grid-area: 'direccion';
+}
+#comentarios{
+    grid-area: 'comentarios';
+}
+#datos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+}
